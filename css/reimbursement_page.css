@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E9F1FD;
+}
+
+#content {
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+}
+
+form{
+    position: relative;
+    padding-left: 230px;
+    padding-top: 20px;
+    justify-content: center;
+    max-width: fit-content;
+}
+
+#form_title_text {
+    font-size: 30px;
+    font-style: normal;
+    line-height: normal;
+    text-decoration: underline;
+}
+
+#required{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 1000;
+    color: red;
+}
+
+.form-label{
+    color: #000;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+}
+
+#form_body{
+    padding-left: 70px;
+}
+
+.form-control{
+    width: 740px;
+    height: 40px;
+    border-color: #000;
+}
+
+
+#receipt_upload{
+    height: 35px;
+}
+
+#bank_details_upload{
+    height: 35px;
+}
+
+#submit_button{
+    height: 50px;
+}
